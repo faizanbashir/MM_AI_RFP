@@ -21,6 +21,22 @@
 </head>
 
 <body>
+    <div class="loading-cnt">
+    <div class="loading-page">
+    <div class="counter">
+    <p>Give me a sec...</p>  
+    <h3>Reading through your RFQ</h3>
+    <h1>0%
+      <!--
+      h1.abs loading
+      h1.abs.color loading
+      -->
+    </h1>
+    <hr/>
+    </div>
+    </div>
+  </div>
+
   <!-- Sidenav -->
   <nav class="sidenav navbar navbar-vertical  fixed-left  navbar-expand-xs navbar-light bg-default" id="sidenav-main">
     <div class="scrollbar-inner">
@@ -48,7 +64,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="dashboard.html">
+              <a class="nav-link active" href="vault.html">
                 <img alt="Rudy for sale" src="assets/img/theme/vault.svg" width="30px">
                 <div class="text-white mt-2">Vault</div>
               </a>
@@ -69,7 +85,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <div class="mr-sm-3">
             <a class="font-weight-bold">
-                <span class="nav-link-text">Hello Jhon Welcome back !</span>
+                <span class="nav-link-text">Hello John, Review your RFQ.</span>
               </a>
           </div>
           <!-- Navbar links -->
@@ -133,9 +149,10 @@
         <div class="card card-stats">
           <div class="card-body">
             <div class="media mb-2">
-              <img alt="Image placeholder" class="mr-2" src="assets/img/theme/audi-logo.png">
+              <img alt="Image placeholder" class="mr-1" src="assets/img/theme/audi-logo.png">
             <div class="media-body">
             <h4 class="card-title text-uppercase font-weight-bold mb-0">Audi of America (AoA)</h4>
+            <h4 class="card-title mb-0">Industry: Automotive​</h4>
             <small class="mt-0 mb-0 text-sm">
               Site Redesign RFP<br>04/12/2019
             </small>
@@ -155,7 +172,7 @@
             <span><a href="#Deliverables">Deliverables</a></span>
             <span><a href="#References">References</a></span>
             <span><a href="#PaymentTerms">Payment Terms</a></span>
-            <span><a href="#Assumptions">Assumptions</a></span>
+            <span><a href="#Assumptions">Key Assumptions</a></span>
           </div>
           <h4>Buyer</h4>
           <div class="contact-card">
@@ -164,12 +181,12 @@
           </div>
           <p class="contact-card__name">Callum Brown</p>
           <ul>
-          <li class="contact-card__link contact-card__link--email"><a title="Email Callum Brown" href="mailto:cabrown96@live.com">cabrown96@live.com</a></li>
+          <li class="contact-card__link contact-card__link--email"><a title="Email Callum Brown" href="mailto:cabrown96@live.com">cabrown96@audi.com</a></li>
           <li class="contact-card__link contact-card__link--mobile">
             <a title="Call Callum Brown" href="tel:+000 12345 6789">
             +000 12345 6789<br>+000 12345 6789
             </a></li>
-            <li class="contact-card__link contact-card__link--email"><a title="Email Callum Brown">1000 Chrysler Drive, Auburn Hills, MI USA 48326-2727</a></li>
+            <li class="contact-card__link contact-card__link--email"><a title="Email Callum Brown">1234 Porsche Dr., Herndon, VA 20171​</a></li>
           </ul>
           </div>
         </div>
@@ -189,10 +206,25 @@
               <div class="card-body">
                 <h2 class="card-title">Client Objectives</h2>
                   <ul class="list-group list-group-flush">
-                  <li class="list-group-item">The Digital Operations and IT Innovation departments at Audi of America (AoA) is seeking a highly-qualified software development.</li>
-                  <li class="list-group-item">The Digital Operations and IT Innovation departments at Audi.</li>
-                  <li class="list-group-item">Delivery team to assist in the technical development and coding of our Next Generation Website.</li>
-                  <li class="list-group-item">As a participant, your organization will have the choice to bid on, and showcase capability for this collaborative.</li>
+                  <li class="list-group-item">The Digital Operations and IT Innovation group is seeking a highly qualified software development delivery team to assist in building the next generation AoA website​.</li>
+                  <li class="list-group-item">Their vision is to create a global distributed development platform to deliver a consistent customer-centric digital experience.</li>
+                  <li class="list-group-item">Their mission is to establish a collaborative methodology to meet Audi Business, Technology and Marketing needs in order to create efficiency & synergy between Audi Development partners across the globe.</li>
+                  <li class="list-group-item">This Request for Proposal will occur in two distinct phases as outlined below.  After Phase 1, AoA will have the discretion to reduce the number of participants to a group of ‘finalists’ that will proceed to Phase 2. ​</li>
+                  <li class="list-group-item">PHASE 1 – Supplier Capability Assessment & Organizational Approach:
+                    <ul>
+                      <li>Assessment on the technical capabilities in software development, including experience with Adobe Experience Manager, front-end and full-stack engineering.</li>
+                      <li>Evaluate automotive experience and strategic approach of digital platforms in an OEM product portfolio.</li>
+                      <li>Assess supplier experience in a global distributed development structure​</li>
+                      <li>Understand supplier approach and experience in Test Driven (TDD),  Behavior Driven Development (BDD) and continuous delivery processes​</li>
+                    </ul>
+                  </li>
+                  <li class="list-group-item">PHASE 2 - Technical Capability Assessment:
+                    <ul>
+                      <li>Audi will have the ability to ask for Phase 2 based upon Phase 1 submissions.  During Phase 2, Audi will ask the supplier ‘finalists’ to conduct either a “Short Form” or “Long Form” assignment related to the activities requested in this RFP.</li>
+                      <li>Short Form - Strip the branding (if necessary) from your most relevant project / product code and walk us through the entire codebase and architecture​.</li>
+                      <li>Long Form - Execute a development assignment authored and assigned by Audi where the supplier will be given requirements and specifications to develop front-end components (this may include at least lightweight service integrations to existing endpoints).  Supplier must develop working & testable code within a specified time period. </li>
+                    </ul>
+                  </li>
                   </ul>
                   <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
                 </div>
@@ -220,6 +252,9 @@
                     site redesign. In 2014, Audi of America identified the growing impact of digitalization across the car shopping experience 
                     and developed a best-in-class OEM brand site experience for its customers.
                   </p>
+                  <p class="card-text text-sm font-weight-normal">
+                    As part of the collaboration with Audi AG, we have determined there is a CORE foundation of software that will be managed on a global level and customizable site sections for which Audi of America will enhance for its market needs (and potentially other market use).  The *initial* project overview is outlined below (also in Exhibit 4) whereas the Supplier Delivery / Development team will be responsible for the “CUSTOMIZED – AoA Modified “NEMO” Platform” and<br>“MARKET – AoA-only Development” sections. 
+                  </p>
                 </div>
               </div>
             </div>
@@ -237,12 +272,30 @@
               <div class="col-md-11">
               <div class="card-body">
                 <h2 class="card-title">Timeline</h2>
+                <h4 class="card-title mt-4 mb-1">Phase1:​</h4>
                 <div class="timeline-cnt">
-                <ul class="timeline">
+                <ul class="timeline" style="width: 1600px;">
                   <li data-year="April 11th, 2017" data-text="Bid Document Issue"><span class="pointer"></span></li>
-                  <li data-year="April 14th, 2017" data-text="Supplier Questions Due Date"><span class="pointer"></span></li>
-                  <li data-year="April 11th, 2017" data-text="Bid Document Issue"><span class="pointer"></span></li>
-                  <li data-year="April 11th, 2017" data-text="Supplier Questions Due Date"><span class="pointer"></span></li>
+                  <li data-year="April 12th, 2017" data-text="Supplier to Confirm Receipt of RFQ Documents"><span class="pointer"></span></li>
+                  <li data-year="April 17th , 2017" data-text="Supplier Questions Due Date"><span class="pointer"></span></li>
+                  <li data-year="April 19th , 2017" data-text="Supplier Questions Returned"><span class="pointer"></span></li>
+                  <li data-year="April 26th , 2017 by 5:00pm EST" data-text="Phase 1 Proposal Submission Deadline"><span class="pointer"></span></li>
+                  <li data-year="May 3rd , 2017​" data-text="Stand-Ups Presentation Start Date"><span class="pointer"></span></li>
+                  <li data-year="May 5th , 2017" data-text="Stand-Ups Presentation End Date"><span class="pointer"></span></li>
+                  <li data-year="May 5th, 2017 " data-text="Supplier Evaluation Start Date"><span class="pointer"></span></li>
+                  <li data-year="May 11th, 2017" data-text="Supplier Evaluation End Date"><span class="pointer"></span></li>
+                  <li data-year="Early June  2017" data-text="Procurement Procedure Estimated 4-6 weeks​ Agency Start Date"><span class="pointer"></span></li>
+                  <!-- <li data-year="asdasd" data-text="Supplier"><span class="pointer"></span></li> -->
+                </ul>
+              </div>
+                <h4 class="card-title mt-4 mb-1">Phase2: If executed​</h4>
+                <div class="timeline-cnt">
+                <ul class="timeline" style="width: 600px;">
+                  <li data-year="May 11th -12th, 2017" data-text="Phase 2 Briefing from AoA (with Q&A)"><span class="pointer"></span></li>
+                  <li data-year="May 15th -19th, 2017​" data-text="Phase 2 Technical Review"><span class="pointer"></span></li>
+                  <li data-year="May 19th -22th , 2017 " data-text="Supplier Evaluation"><span class="pointer"></span></li>
+                  <li data-year="Late June  2017" data-text="Procurement Procedure Estimated 4-6 weeks ​
+Agency Start Date"><span class="pointer"></span></li>
                 </ul>
                 </div>  
                 </div>
@@ -286,7 +339,29 @@
               <div class="col-md-11">
               <div class="card-body">
                 <h2 class="card-title">Deliverables</h2>
-                <div class="row">
+                <h4>Audiusa.com Redesign Development involves, but is not limited to: </h4>
+                  <p class="card-text text-sm font-weight-normal">​
+                  The planning, development, testing and overall production of the new audiusa.com brand site in collaboration with Audi Brand and CODE (IT) offices under the direction of the Leadership and Solutions & Design teams. Production will be based upon the global Audi AG “NEMO” architecture which includes microservices development, AEM (6.2), use of modern front-end frameworks (FB React, etc.) and leverages automated DevOps supported build and deploy methodologies for development using TDD principles.</p>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">AGILE methodology and management for the development to be conducted in 1-2 week SPRINT cycles with continuous delivery pipelines as defined & managed by Solutions & Design architects.</li>
+                    <li class="list-group-item">Project Management and organization of associated meetings between Solutions & Design Team and Delivery teams.</li>
+                    <li class="list-group-item">SPRINT organization, planning and documentation on performance​.</li>
+                    <li class="list-group-item">10 months version with tasks executed in 1 or 2 week SPRINTS (Thurs-Wed sprint cadence).</li>
+                    <li class="list-group-item">12 month version with tasks executed in 1 or 2 week SPRINTS (Thurs-Wed sprint cadence)​.</li>
+                    <li class="list-group-item">Routing for Reviews and Approvals.</li>
+                    <li class="list-group-item">Allocation of resources to appropriate projects / tasks to meet deadlines.</li>
+                    <li class="list-group-item">Progress and performance traceability for Solutions & Design teams & Leadership teams.</li>
+                    <li class="list-group-item">Communications with internal AoA IT group</li>
+                    <li class="list-group-item">Adherence to AoA IT standards and best practices for integrated development and contributions to AudiUSA.com.</li>
+                  </ul> 
+                  <p class="card-text text-sm font-weight-normal mt-3 mb-1">​Quality Assurance planning and oversite of unit tests developed into the codebase of each microservice and front-end component.  </p>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Development of unit testing implementation into codebase.</li>
+                    <li class="list-group-item">Validation that code was developed appropriately and sustainably as part of warranty of work.</li>
+                    <li class="list-group-item">Oversight of QA principles & software for consistency across all developers.</li>
+                    <li class="list-group-item">Ongoing bug and defect management and backlog.</li>
+                  </ul>   
+                <!-- <div class="row">
                   <div class="col-md-6">
                     <ul class="list-unstyled">
                 <li class="media">
@@ -317,7 +392,7 @@
                 </li>
               </ul>
                   </div>
-                </div>                
+                </div> -->                
                 </div>
               </div>
             </div>
@@ -335,13 +410,12 @@
               <div class="col-md-11">
               <div class="card-body">
                 <h2 class="card-title">References</h2>
-                <ul class="list-group">
-                <li class="list-group-item">Tech for Next Generation Org.</li>
-                <li class="list-group-item">Next Generation Org.</li>
-                <li class="list-group-item">Tech.</li>
-                <li class="list-group-item">Tech Organizations.</li>
-                <li class="list-group-item">Development  Cloud.</li>
-                </ul>               
+                <div class="card text-center pt-3" style="width: 12rem;">
+                <div class="circle bg-primary">5</div>
+                <div class="card-body">
+                <h3 class="card-title">All reference need to be callable. </h3>
+                </div>
+                </div>              
                 </div>
               </div>
             </div>
@@ -359,8 +433,8 @@
               <div class="col-md-11">
               <div class="card-body">
                 <h2 class="card-title">Payment Terms</h2>
-                  The payment term for this sourcing award will be made at Net 90 days after the receipt of a proper invoice.  
-                  Net 90 days will apply despite any previous agreement with FCA, including, without limitation, a MITSA or MSA. 
+                  The payment term for this sourcing award will be made at net 90 days after the receipt of a proper invoice.  
+                  Net 45 days in accordance with the MSA.  
                   Compliance will be recorded in Appendix R.2.                
                 </div>
               </div>
@@ -378,7 +452,7 @@
               </div>
               <div class="col-md-11">
               <div class="card-body">
-                <h2 class="card-title">Assumptions</h2>
+                <h2 class="card-title">Key Assumptions​</h2>
                   <div class="table-responsive">
               <!-- Projects table -->
               <table class="table align-items-center">
@@ -394,9 +468,7 @@
                       01
                     </td>
                     <td>
-                     Simulation/Modeling tools Interface is assumed to be manual. This is to 
-manage model revision levels for analysis (e.g. Crash behavior)
-Or done by PDMLink Document management capability
+                     Integration with current backend systems, if need to, should be enhanced when the new website is built.
                     </td>
                   </tr>
                   <tr>
@@ -404,8 +476,7 @@ Or done by PDMLink Document management capability
                       02
                     </td>
                     <td>
-                      It is assumed that all  “Software (source code)” will be managed in ZF TRW’s projected defined 
-“Integrity” instance.
+                      Deploying capability in sprints is a must and once capability is in production, the new team will manage the system​.
                     </td>
                   </tr>
                   <tr>
@@ -413,18 +484,9 @@ Or done by PDMLink Document management capability
                       03
                     </td>
                     <td>
-                      No SharePoint interface is assumed
+                      The supplier awarded the business will have to demonstrate acumen in working in a multi partner environment.
                     </td>
                   </tr>
-                  <tr>
-                    <td>
-                      04
-                    </td>
-                    <td>
-                      It is assumed that all part related requirements are traceable in PARTSLink / PDMLink
-                    </td>
-                  </tr>
-                  
                 </tbody>
               </table>
             </div>                
@@ -487,6 +549,29 @@ Or done by PDMLink Document management capability
   <script src="assets/vendor/chart.js/dist/Chart.extension.js"></script>
   <!-- Argon JS -->
   <script src="assets/js/argon.js?v=1.2.0"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+  
+  var counter = 0;
+  var c = 0;
+  var i = setInterval(function(){
+      $(".loading-page .counter h1").html(c + "%");
+      $(".loading-page .counter hr").css("width", c + "%");
+      //$(".loading-page .counter").css("background", "linear-gradient(to right, #f60d54 "+ c + "%,#0d0d0d "+ c + "%)");
+
+    /*
+    $(".loading-page .counter h1.color").css("width", c + "%");
+    */
+    counter++;
+    c++;
+      
+    if(counter == 101) {
+        clearInterval(i);
+    }
+  }, 50);
+});
+  </script>
 </body>
 
 </html>

@@ -251,7 +251,7 @@ span.plus {
 }
 .sidebar-item {
 	position: absolute;
-	top: 150px;
+	top: auto;
 	left: 0;
 	width: 100%;
 	height: 100%;
@@ -389,8 +389,8 @@ a#menu-share:hover > i{
 	width: 100%;
 	overflow-x: auto;
 	overflow-y: hidden;
-	height: 250px;
-	padding: 36px 25px;
+	height: 230px;
+	padding: 10px 25px;
 	display: block;
 }
 .timeline {
@@ -399,8 +399,8 @@ a#menu-share:hover > i{
 	list-style: none;
 	text-align: justify;
 	position: absolute;
-    top: 100px;
-    padding: 0px 20px;
+    top: 80px;
+    padding: 0px 45px;
 /*	-webkit-transform: translate(-50%, -50%);
 	   -moz-transform: translate(-50%, -50%);
 	    -ms-transform: translate(-50%, -50%);
@@ -475,16 +475,16 @@ a#menu-share:hover > i{
 }
 
 .timeline li:nth-child(odd):before {
-	top: -55px;
+	top: -70px;
 }
 .timeline li:nth-child(even):before {
-	top: -55px;
+	top: -70px;
 }
 
 .timeline li:after {
 	display: inline-block;
 	content: attr(data-text);
-	font-size: 16px;
+	font-size: 14px;
 	width: 140px;
 	color: #172b4d;
     font-weight: 500;
@@ -598,3 +598,126 @@ a#menu-share:hover > i{
 #References .list-group .list-group-item{
   padding: 5px 10px;
 }
+#References .circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    font-size: 40px;
+    color: #fff;
+    margin: auto;
+}
+.vault .card a.btn.btn-icon.btn-primary.rounded-circle{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+    line-height: 40px;
+    background: transparent;
+    color: #47d6c4;
+}
+.vault .col-md-3.bg-primary span{
+    font-size: 25px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.4);
+    position: absolute;
+    top:0;
+    right: 0;
+    left:0;
+    bottom: 0;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    font-weight: 500;
+    line-height: 50px;
+}
+
+body + .loading-cnt {overflow: hidden !important;}
+.loading-cnt {
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    z-index: 9999;
+    overflow: hidden;
+}
+.loading-cnt {
+    -moz-animation: cssAnimation 0s ease-out 6s forwards;
+    /* Firefox */
+    -webkit-animation: cssAnimation 0s ease-out 6s forwards;
+    /* Safari and Chrome */
+    -o-animation: cssAnimation 0s ease-out 6s forwards;
+    /* Opera */
+    animation: cssAnimation 0s ease-out 6s forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+@keyframes cssAnimation {
+    to {
+        width:0;
+        height:0;
+        overflow:hidden;
+    }
+}
+@-webkit-keyframes cssAnimation {
+    to {
+        width:0;
+        height:0;
+        visibility:hidden;
+    }
+}
+
+.loading-page {
+  background: #172b4d;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+}
+.loading-page .counter {
+  text-align: center;
+}
+.loading-page .counter p {
+  font-size: 30px;
+  font-weight: 100;
+  color: #2bffc6;
+  margin: 0;
+}
+.loading-page .counter h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.loading-page .counter h1 {
+  color: white;
+  font-size: 60px;
+  margin-top: -10px;
+}
+.loading-page .counter hr {
+  background: #2bffc6;
+  border: none;
+  height: 1px;
+}
+.loading-page .counter {
+  position: relative;
+  width: 320px;
+}
+.loading-page .counter h1.abs {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.loading-page .counter .color {
+  width: 0px;
+  overflow: hidden;
+  color: #2bffc6;
+}
+

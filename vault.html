@@ -16,7 +16,6 @@
   <link rel="stylesheet" href="assets/vendor/@fortawesome/fontawesome-free/css/all.min.css" type="text/css">
   <!-- Page plugins -->
   <!-- Argon CSS -->
-  <link rel="stylesheet" href="https://rawgit.com/enyo/dropzone/master/dist/dropzone.css" />
   <link rel="stylesheet" href="assets/css/argon.css?v=1.2.0" type="text/css">
   <link rel="stylesheet" href="assets/css/custom.css" type="text/css">
 </head>
@@ -70,7 +69,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <div class="mr-sm-3">
             <a class="font-weight-bold">
-                <span class="nav-link-text">Hello John, Im here to help you with your RFQ,s.</span>
+                <span class="nav-link-text">Hello John, Manage the RFQs from your vault.</span>
               </a>
           </div>
           <!-- Navbar links -->
@@ -126,31 +125,65 @@
         </div>
       </div>
     </nav>
-
+    
     <!-- Page content -->
-    <div class="container-fluid">
-      <div class="row justify-content-center mt-4">
-        <div class="col-xl-6 col-md-6">
-        <div id="dropzone" class="mb-8">
-         <form action="/upload" class="dropzone needsclick" id="demo-upload">
-            <div class="dz-message needsclick">
-               <span class="text"><i class="fas fa-file-upload"></i>
-               <p>Drop files here or click to upload.</p></span>
-               <span class="plus">+</span>
-            </div>
-         </form>
-         <div class="mt-4">
-          <span>Supports :</span>
-          <span class="mr-2"><img alt="doc" src="assets/img/theme/doc.svg" height="30px"></span>
-          <span class="mr-2"><img alt="pdf" src="assets/img/theme/pdf.svg" height="30px"></span>
-          <span class="mr-2"><img alt="ppt" src="assets/img/theme/ppt.svg" height="30px"></span>
-          <span class="ml-2">Size :</span>
-          <span class="text-default font-weight-bold">Max 100mb</span>
-          <a href="rfpinfographics.html" class="btn btn-default btn-rounded float-right px-5" style="border-radius: 60px;">Next</a>
-         </div>
+    <div class="container-fluid vault">
+      <div class="row mt-4" style="min-height: 550px;">
+        <div class="col-xl-3 col-md-3">
+          <div class="card mb-3">
+          <div class="row no-gutters">
+          <div class="col-md-3 bg-primary" style="margin-left: 10px">
+          <span>VM</span>
+          </div>
+          <div class="col-md-9" style="margin-right: -10px">
+          <div class="card-body">
+          <h3 class="card-title mb-0">VW Salesforce Implementation</h3>
+          <p class="card-text"><small class="text-muted"><i class="fas fa-history"></i> 2 Days ago</small></p>
+          <a href="#" class="btn btn-icon btn-primary rounded-circle" data-toggle="tooltip" data-placement="bottom" title="Send as email"><i class="fas fa-envelope"></i></a>
+          <a href="#" class="btn btn-icon btn-primary rounded-circle" data-toggle="tooltip" data-placement="bottom" title="Download as pdf"><i class="fas fa-file-pdf"></i></a>
+          </div>
+          </div>
+          </div>
+          </div>
         </div>
+        <div class="col-xl-3 col-md-3">
+          <div class="card mb-3">
+          <div class="row no-gutters">
+          <div class="col-md-3 bg-primary" style="margin-left: 10px">
+          <span>ZF</span>
+          </div>
+          <div class="col-md-9" style="margin-right: -10px">
+          <div class="card-body">
+          <h3 class="card-title mb-0">ZF TRW PLM Implementation</h3>
+          <p class="card-text"><small class="text-muted"><i class="fas fa-history"></i> 3 Days ago</small></p>
+          <a href="#" class="btn btn-icon btn-primary rounded-circle" data-toggle="tooltip" data-placement="bottom" title="Send as email"><i class="fas fa-envelope"></i></a>
+          <a href="#" class="btn btn-icon btn-primary rounded-circle" data-toggle="tooltip" data-placement="bottom" title="Download as pdf"><i class="fas fa-file-pdf"></i></a>
+          </div>
+          </div>
+          </div>
+          </div>
         </div>
+        <div class="col-xl-3 col-md-3">
+          <div class="card mb-3">
+          <div class="row no-gutters">
+          <div class="col-md-3 bg-primary" style="margin-left: 10px">
+          <span>FC</span>
+          </div>
+          <div class="col-md-9" style="margin-right: -10px">
+          <div class="card-body">
+          <h3 class="card-title mb-0">FCA Strategic Sourcing</h3>
+          <p class="card-text"><small class="text-muted"><i class="fas fa-history"></i> 3 Days ago</small></p>
+          <a href="#" class="btn btn-icon btn-primary rounded-circle" data-toggle="tooltip" data-placement="bottom" title="Send as email"><i class="fas fa-envelope"></i></a>
+          <a href="#" class="btn btn-icon btn-primary rounded-circle" data-toggle="tooltip" data-placement="bottom" title="Download as pdf"><i class="fas fa-file-pdf"></i></a>
+          </div>
+          </div>
+          </div>
+          </div>
+        </div>
+
       </div>
+
+
       
       <!-- Footer -->
       <footer class="footer pt-0">
@@ -184,7 +217,9 @@
   <script src="assets/vendor/js-cookie/js.cookie.js"></script>
   <script src="assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js"></script>
   <script src="assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js"></script>
-  <script src="https://rawgit.com/enyo/dropzone/master/dist/dropzone.js"></script>
+  <!-- Optional JS -->
+  <script src="assets/vendor/chart.js/dist/Chart.min.js"></script>
+  <script src="assets/vendor/chart.js/dist/Chart.extension.js"></script>
   <!-- Argon JS -->
   <script src="assets/js/argon.js?v=1.2.0"></script>
 </body>
